@@ -29,7 +29,7 @@ public class ClothesStore {
             String url = "jdbc:mysql://localhost:3306/clothes?zeroDateTimeBehavior=CONVERT_TO_NULL";
             Connection con = DriverManager.getConnection(url, "root", "lolbiglol");
          } catch (Exception e) {
-             JOptionPane.showMessageDialog(new JOptionPane(), "No database found!"+"/n"+"ya5arab beetak ya wahdaan");
+             JOptionPane.showMessageDialog(new JOptionPane(), "No database found!");
              
          }
 
